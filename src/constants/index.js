@@ -19,6 +19,8 @@ import {
   starbucks,
   tesla,
   shopify,
+  freelancer,
+  ummah,
   carrent,
   jobit,
   tripguide,
@@ -114,7 +116,7 @@ const experiences = [
   {
     title: "Front End Developer",
     company_name: "Freelancer",
-    icon: starbucks,
+    icon: freelancer,
     iconBg: "#383E56",
     date: "March 2020 - April 2024",
     points: [
@@ -127,7 +129,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Özgür Ümmet Derneği",
-    icon: meta,
+    icon: ummah,
     iconBg: "#E6DEDD",
     date: "April 2024 - Present",
     points: [
