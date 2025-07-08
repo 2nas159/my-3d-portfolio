@@ -25,6 +25,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  hoobank,
+  carhub,
+  quickstay,
 } from "../assets";
 
 export const navLinks = [
@@ -187,13 +190,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://car-showcase-kappa-three.vercel.app",
+    image: carhub,
+    source_code_link: "https://github.com/2nas159/car-rental-app",
   },
   {
-    name: "Job IT",
+    name: "Banking Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A modern banking platform featuring a minimalist design, intuitive user interface, and seamless digital banking experience.",
     tags: [
       {
         name: "react",
@@ -208,13 +211,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hoobank,
+    source_code_link: "https://github.com/2nas159/hoobank",
   },
   {
-    name: "Trip Guide",
+    name: "Hotel Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive hotel booking platform that allows users to book rooms and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "nextjs",
@@ -229,8 +232,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: quickstay,
+    source_code_link: "https://github.com/2nas159/Hotel-Management-System",
   },
 ];
 
